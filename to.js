@@ -6,7 +6,7 @@ function validateCode(event) {
 
     if (code === validCode) {
         localStorage.setItem('isLoggedIn', 'true');
-        window.location.href = 'https://drive.google.com/drive/folders/1SWKnnhJY0w-lkTyvScTCYTvLo6cM5X87';
+        window.location.href = 'https://drive.google.com/drive/folders/1ADSneVH4kVOfw5-hmPqDjdIA5x3WZA0q';
     } else {
         alert('كود غير صحيح');
     }
